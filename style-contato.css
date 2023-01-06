@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(fonts/Raleway-VariableFont_wght.ttf);
+}
+header {
+  background-color: #bbbbbb;
+}
+.barbearia_header {
+  width: 10%;
+}
+.caixa {
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 45%;
+  right: 0%;
+}
+nav li {
+  display: inline;
+  margin-left: 50px;
+}
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Raleway";
+}
+nav a:hover {
+  color: grey;
+  border: 2px solid grey;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  margin-right: 0%;
+}
+form {
+  margin: 40px 0;
+}
+form label {
+  display: block;
+  font-family: "Raleway";
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+div p,
+form legend {
+  display: block;
+  font-family: "Raleway";
+  font-size: 20px;
+  margin: 0 0 10px;
+  padding: 15px 0 0 0;
+}
+
+.input-padrao {
+  display: block;
+  font-family: "Raleway";
+  font-size: 15px;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  width: 50%;
+}
+option {
+  font-family: "Raleway";
+  font-size: 15px;
+}
+
+.checkbox {
+  margin: 30px 0;
+}
+.enviar {
+  font-family: "Raleway";
+  font-size: 18px;
+  margin: 0 0 20px;
+  padding: 15px 0;
+  width: 40%;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+  width: 55%;
+  margin: 0 auto;
+}
+.enviar:hover {
+  background-color: gray;
+  transform: scale(1.2);
+  /* transform: rotate(1000deg) scale(1.2);*/
+}
+.titulo-tabela {
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  margin-left: 150px;
+}
+
+table {
+  margin: 0 0 40px;
+  width: 55%;
+}
+thead {
+  background-color: #bbbbbb;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: bold;
+}
+td,
+th {
+  border: 1px solid grey;
+  padding: 8px 15px;
+  font-family: "Raleway";
+}
+
+footer {
+  background: url("images/produtos/bg.jpg");
+  text-align: center;
+  padding: 30px 0;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+  font-family: "Raleway";
+}

@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(fonts/Raleway-VariableFont_wght.ttf);
+}
+header {
+  background-color: #bbbbbb;
+}
+.barbearia_header {
+  width: 10%;
+}
+.caixa {
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 45%;
+  right: 0%;
+}
+nav li {
+  display: inline;
+  margin-left: 50px;
+}
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Raleway";
+}
+nav a:hover {
+  color: grey;
+  border: 2px solid grey;
+}
+.produtos {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.produtos li:hover {
+  border-color: grey;
+}
+.produtos li:hover h2 {
+  font-size: 40px;
+}
+
+.produtos li:active {
+  border-color: #bbbbbb;
+}
+
+.produtos h2 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Raleway";
+}
+.produto-descricao {
+  font-family: "Raleway";
+  font-size: 18px;
+}
+
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Raleway";
+  margin-top: 10px;
+}
+
+footer {
+  background: url("images/produtos/bg.jpg");
+  text-align: center;
+  padding: 30px 0;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+  font-family: "Raleway";
+}

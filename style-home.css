@@ -1,0 +1,344 @@
+.fonte {
+  font-family: "Raleway";
+}
+
+header {
+  background-color: #bbbbbb;
+}
+.barbearia_header {
+  width: 10%;
+}
+.caixa {
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 45%;
+  right: 0%;
+}
+nav li {
+  display: inline;
+  margin-left: 50px;
+}
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Raleway";
+}
+nav a:hover {
+  color: grey;
+  border: 2px solid grey;
+}
+
+form {
+  margin: 40px 0;
+}
+form label {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+  font-family: "Raleway";
+}
+
+div p,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+  padding: 15px 0 0 0;
+}
+
+.input-padrao {
+  display: block;
+  font-size: 15px;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  width: 50%;
+}
+option {
+  font-size: 15px;
+}
+
+.checkbox {
+  margin: 30px 0;
+}
+.enviar {
+  font-size: 18px;
+  margin: 0 0 20px;
+  padding: 15px 0;
+  width: 40%;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+  width: 55%;
+  margin: 0 auto;
+}
+.enviar:hover {
+  background-color: gray;
+  transform: scale(1.2);
+  /* transform: rotate(1000deg) scale(1.2);*/
+}
+.titulo-tabela {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  margin-left: 150px;
+  font-family: "Raleway";
+}
+
+table {
+  margin: 0 0 40px;
+  width: 55%;
+}
+thead {
+  background-color: #bbbbbb;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Raleway";
+}
+td,
+th {
+  border: 1px solid grey;
+  padding: 8px 15px;
+}
+
+footer {
+  background: url("images/produtos/bg.jpg");
+  text-align: center;
+  padding: 30px 0;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+/*css da página inicial*/
+.banner {
+  width: 100%;
+}
+
+.titulo-principal {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2em 0 1em;
+  clear: left;
+  /* text-shadow: 2px 2px 2px; - SOMBRA DO TEXTO*/
+}
+.titulo-principal-estabelecimento {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1em 0 1em;
+}
+/*
+.titulo-principal-estabelecimento:first-letter {
+  MUDA O CSS DA PRIMEIRA LETRA DO ELEMENTRO
+}*/
+/*
+.titulo-principal-estabelecimento:first-line {
+  MUDA O CSS DA PRIMEIRA LINHA DO ELEMENTRO
+}*/
+/*
+.titulo-principal-estabelecimento:before {
+  content: "["
+}*/
+/*
+.titulo-principal-estabelecimento:after {
+  content: "]"
+}*/
+
+.utensilios {
+  width: 130px;
+  float: left;
+  margin: 0 30px 30px 0;
+}
+.principal {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #fefefe;
+}
+
+.principal p {
+  margin: 0 0 1.2em;
+  font-size: 18px;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+.beneficio {
+  background-color: #bbbbbb;
+}
+
+.conteudo-beneficio {
+  width: 70%;
+  margin: 0 auto;
+}
+.itens {
+  padding-top: 1.5em;
+  font-size: 20px;
+}
+.itens:before {
+  content: "✧ ";
+}
+.itens:after {
+  content: " ✧"; /*Pegar esse símbolo do unicode*/
+}
+
+/*
+.itens:first-child {
+  font-weight: bold;
+}
+.itens:nth-child(4) {
+  font-weight: bold;
+}
+
+.itens:nth-child(2n) {
+  font-weight: bold;
+}
+
+.itens:last-child {
+  font-weight: bold;
+}
+*/
+
+.itens-beneficio {
+  margin: 0 3em 2em;
+  float: left;
+  text-align: center;
+}
+
+.imagem-beneficios {
+  width: 55%;
+  clear: left;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px #000000;
+  /*box-shadow: 10px 10px 5px #000000, -10px -10px 5px yellow,
+    -20px 20px rgba(255, 0, 0, 0.5); - SOMBRA EXTERNA*/
+  /*box-shadow: inset 0 0 30px #ff0000 - SOMBRA INTERNA*/
+}
+.imagem-beneficios:hover {
+  opacity: 0.7;
+}
+
+.mapa {
+  padding: 1em 0;
+  background: linear-gradient(#fefefe, #bbbbbb);
+  /*  background: linear-gradient(45dg, #fefefe, #bbbbbb); */
+  /*  background: linear-gradient(90dg, #fefefe, #bbbbbb); */
+  /*  background: linear-gradient(90dg, black, red, blue, green); */
+  /*  background: linear-gradient(90dg, black, red 50%, blue 10%, green); */
+  /*  background: radial-gradient(black, red 50%, blue 10%, green); */
+}
+
+.mapa-conteudo {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.mapa p {
+  margin: 0 0 1em;
+  text-align: center;
+}
+
+.video {
+  width: 560px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+/*
+main > p{} - SELECIONA O PRIMEIRO P QUE VEM LOGO DEPOIS DA MAIN
+img + p{} - SELECIONA O PRIMEIRO IRMÃO P QUE VEM DEPOIS DE UMA IMAGEM
+img ~ p {}  - SELECIONA TODOS OS P QUE VEM DEPOIS DA IMAGEM
+.principal p:not(.missao) - SELECIONA TODOS OS P QUE NÃO TEM O ID MISSÃO
+section > p + h2 - SELECIONA O IRMÃO DO PRIMEIRO P QUE VEM DEPOIS DA SECTION
+
+CSS 3 TEM A PROPRIEDADE CALC PARA MEDIDAS PROPORCIONAIS
+width: calc( 33% - 10px )
+width: calc( (100% / 3) - 10px )
+
+*/
+
+@media screen and (max-width: 480px) {
+  .video {
+    width: 100%;
+    padding: 30px 0 0 0;
+  }
+  h1 {
+    text-align: center;
+  }
+  .titulo-principal,
+  .titulo-principal-estabelecimento {
+    font-size: 1em;
+  }
+  .utensilios {
+    width: 30%;
+    margin: 10px 20px 20px 0;
+  }
+  .principal {
+    width: 80%;
+  }
+  .principal p,
+  section p {
+    font-size: 14px;
+  }
+  section p {
+    font-size: 12px;
+  }
+  /* .principal > p {
+    text-align: center;
+  }*/
+
+  .itens {
+    padding-top: 1em;
+    font-size: 14px;
+  }
+  .itens:first-child {
+    padding-top: 0;
+  }
+
+  .itens-beneficio {
+    margin: 0 2em 0;
+  }
+
+  .imagem-beneficios {
+    width: 80%;
+    margin: 1em 2em 1em;
+  }
+  .mapa-conteudo {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .barbearia_header {
+    width: 15%;
+  }
+  nav {
+    position: static;
+  }
+  .caixa {
+    width: 100%;
+    padding: 0 0 10px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+}
